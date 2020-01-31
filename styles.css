@@ -1,0 +1,342 @@
+body, html{
+  touch-action: none;
+  position: fixed;
+}
+
+#sticky {
+  height: 500px;
+  width: 500px;
+  background: url("img/yawningSprite.jpg") 0px 0px;
+  box-shadow:2px 15px 5px rgba(0, 0, 0, 0.40);
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+.dragItem{
+  touch-action: none;
+  user-select: none;
+}
+
+#image {
+  width:600px;
+  height:600px;
+  padding-left: 100px;
+  display: inline-block;
+  float: left;
+  clear: both;
+  touch-action: none;
+  user-select: none;
+}
+#loading{
+  margin: auto;
+  margin-top: 120px;
+  margin-left: 100px;
+  font-size: 30pt;
+  color: red;
+  font-family: "Comic Sans MS";
+}
+
+
+#potatoHead{
+  display: none;
+}
+
+#titleDiv{
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  height:100px;
+  width: 100px;
+}
+
+#message {
+  display: none;
+}
+
+#titleDiv img {
+  height:100%;
+  width: 100%;
+  padding-left: 20px;
+}
+
+#potato {
+  position:absolute;
+  left:670px;
+  top:100px;
+  width:100px;
+  height:50px;
+}
+#explanation {
+  position:absolute;
+  left:250px;
+  top:300px;
+  width:280px;
+  height:80px;
+  touch-action: none;
+  user-select: none;
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+}
+
+#library{
+  width:600px;
+  height:600px;
+  display: inline-block;
+  position: relative;
+  border: red solid 3px;
+}
+
+.head{
+  width:100%;
+  height:100%;
+}
+
+
+#eyeball{
+  position: absolute;
+  left:800px;
+  top:180px;
+  width:70px;
+  height:70px;
+}
+
+#eyeball2{
+  position: absolute;
+  left:900px;
+  top:180px;
+  width:70px;
+  height:70px;
+
+}
+
+#eyeball3{
+  position: absolute;
+  left:800px;
+  top:280px;
+  width:70px;
+  height:70px;
+
+}
+
+
+
+#eyeball4{
+  position: absolute;
+  left:900px;
+  top:280px;
+  width:70px;
+  height:70px;
+
+}
+
+#eyeball5{
+  position: absolute;
+  left:800px;
+  top:380px;
+  width:70px;
+  height:70px;
+
+}
+
+#eyeball6{
+  position: absolute;
+  left:900px;
+  top:380px;
+  width:70px;
+  height:70px;
+
+}
+
+
+#hair1{
+  position: absolute;
+  left:1000px;
+  top: 180px;
+  width:70px;
+  height:70px;
+}
+
+#hair2{
+  position: absolute;
+  left:1100px;
+  top: 180px;
+  width:70px;
+  height:70px;
+}
+
+#hair3{
+  position: absolute;
+  left:1100px;
+  top: 480px;
+  width:70px;
+  height:70px;
+}
+
+#rightEar1{
+  position: absolute;
+  left:800px;
+  top: 480px;
+  width:70px;
+  height:70px;
+}
+
+
+#leftEar1{
+  position: absolute;
+  left:900px;
+  top: 480px;
+  width:70px;
+  height:70px;
+}
+
+#hat1{
+  position: absolute;
+  left:1200px;
+  top: 280px;
+  width:70px;
+  height:70px;
+}
+
+#hat2{
+  position: absolute;
+  left:1200px;
+  top: 380px;
+  width:70px;
+  height:70px;
+}
+#mouth7{
+  position: absolute;
+  left:1200px;
+  top: 580px;
+  width:70px;
+  height:70px;
+}
+
+#nose2{
+  position: absolute;
+  left:1100px;
+  top:280px;
+  width:70px;
+  height:70px;
+}
+
+#mouth5{
+  position: absolute;
+  left:1100px;
+  top:380px;
+  width:70px;
+  height:70px;
+}
+
+#mouth6{
+  position: absolute;
+  left:1200px;
+  top:180px;
+  width:70px;
+  height:70px;
+}
+
+
+#mouth2{
+  position: absolute;
+  left:1000px;
+  top:280px;
+  width:70px;
+  height:70px;
+}
+
+#mouth3{
+  position: absolute;
+  left:1000px;
+  top:380px;
+  width:70px;
+  height:70px;
+}
+
+#nose4{
+  position: absolute;
+  left:800px;
+  top:580px;
+  width:70px;
+  height:70px;
+}
+
+#nose5{
+  position: absolute;
+  left:900px;
+  top:580px;
+  width:70px;
+  height:70px;
+}
+
+#nose6{
+  position: absolute;
+  left:1000px;
+  top:480px;
+  width:70px;
+  height:70px;
+}
+
+#nose8{
+  position: absolute;
+  left:1200px;
+  top:480px;
+  width:70px;
+  height:70px;
+}
+
+#cheek1{
+  position: absolute;
+  left:1000px;
+  top:580px;
+  width:70px;
+  height:70px;
+}
+
+#cheek2{
+  position: absolute;
+  left:1100px;
+  top:580px;
+  width:70px;
+  height:70px;
+}
+
+
+
+#resetButton{
+  width:70px;
+  height:50px;
+  margin-left:100px;
+}
+
+
+
+.button{
+  padding:10px;
+  cursor: pointer;
+}
+
+#resetButton{
+  width:50px;
+  height:20px;
+  margin-left:100px;
+
+}
+
+#resetButton img {
+  width:100%;
+  height:100%;
+  padding-top: 12px;
+}
+
+#link{
+  width:150px;
+  height:30px;
+  margin-left:180px;
+}
+
+#link img {
+  width:100%;
+  height:100%;
+}
+

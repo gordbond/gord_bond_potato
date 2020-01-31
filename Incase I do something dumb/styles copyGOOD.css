@@ -1,0 +1,418 @@
+body, html{
+  touch-action: none;
+  position: fixed;
+}
+
+
+.dragItem{
+  touch-action: none;
+  user-select: none;
+}
+
+#image {
+  width:600px;
+  height:600px;
+  padding-left: 100px;
+  display: inline-block;
+  float: left;
+  clear: both;
+  touch-action: none;
+  //user-select: none;
+  /* border: red solid 3px; */
+}
+#loading{
+  margin: auto;
+  padding-top: 60px;
+  padding-left: 60px;
+  font-size: 30pt;
+  color: red;
+  font-family: "Comic Sans MS";
+}
+
+
+#potatoHead{
+  display: none;
+}
+
+#titleDiv{
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  height:100px;
+  width: 100px;
+}
+
+#message {
+  display: none;
+}
+
+#titleDiv img {
+  height:100%;
+  width: 100%;
+  padding-left: 20px;
+}
+
+#potato {
+  position:absolute;
+  left:670px;
+  top:100px;
+  width:100px;
+  height:50px;
+}
+#explanation {
+  position:absolute;
+  left:250px;
+  top:300px;
+  width:280px;
+  height:80px;
+  touch-action: none;
+  user-select: none;
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+}
+
+#library{
+  width:600px;
+  height:600px;
+  display: inline-block;
+  position: relative;
+  /* float: right; */
+  /* border: red solid 3px; */
+}
+
+.head{
+  width:100%;
+  height:100%;
+
+}
+
+/* #eyeball{
+  position: absolute;
+  left:860px;
+  top:200px;
+  width:150px;
+  height:150px;
+} */
+
+#eyeball{
+  position: absolute;
+  left:800px;
+  top:180px;
+  width:70px;
+  height:70px;
+}
+
+#eyeball2{
+  position: absolute;
+  left:900px;
+  top:180px;
+  width:70px;
+  height:70px;
+
+}
+
+#eyeball3{
+  position: absolute;
+  left:800px;
+  top:280px;
+  width:70px;
+  height:70px;
+
+}
+
+
+
+#eyeball4{
+  position: absolute;
+  left:900px;
+  top:280px;
+  width:70px;
+  height:70px;
+
+}
+
+#eyeball5{
+  position: absolute;
+  left:800px;
+  top:380px;
+  width:70px;
+  height:70px;
+
+}
+
+#eyeball6{
+  position: absolute;
+  left:900px;
+  top:380px;
+  width:70px;
+  height:70px;
+
+}
+
+/* #hair1{
+  position: absolute;
+  left:730px;
+  top: 80px;
+  width:600px;
+  height:600px;
+
+} */
+
+#hair1{
+  position: absolute;
+  left:1000px;
+  top: 180px;
+  width:70px;
+  height:70px;
+}
+
+#hair2{
+  position: absolute;
+  left:1100px;
+  top: 180px;
+  width:70px;
+  height:70px;
+}
+
+#hair3{
+  position: absolute;
+  left:1100px;
+  top: 480px;
+  width:70px;
+  height:70px;
+}
+
+#rightEar1{
+  position: absolute;
+  left:800px;
+  top: 480px;
+  width:70px;
+  height:70px;
+}
+
+
+#leftEar1{
+  position: absolute;
+  left:900px;
+  top: 480px;
+  width:70px;
+  height:70px;
+}
+
+#hat1{
+  position: absolute;
+  left:1200px;
+  top: 280px;
+  width:70px;
+  height:70px;
+}
+
+#hat2{
+  position: absolute;
+  left:1200px;
+  top: 380px;
+  width:70px;
+  height:70px;
+}
+#mouth7{
+  position: absolute;
+  left:1200px;
+  top: 580px;
+  width:70px;
+  height:70px;
+}
+
+/* #nose1{
+  position: absolute;
+  left:830px;
+  top:300px;
+  width:300px;
+  height:200px;
+
+} */
+
+/* #nose1{
+  position: absolute;
+  left:1100px;
+  top:180px;
+  width:70px;
+  height:70px;
+} */
+
+#nose2{
+  position: absolute;
+  left:1100px;
+  top:280px;
+  width:70px;
+  height:70px;
+}
+/*
+#nose3{
+  position: absolute;
+  left:1100px;
+  top:380px;
+  width:70px;
+  height:70px;
+} */
+
+#mouth5{
+  position: absolute;
+  left:1100px;
+  top:380px;
+  width:70px;
+  height:70px;
+}
+
+#mouth6{
+  position: absolute;
+  left:1200px;
+  top:180px;
+  width:70px;
+  height:70px;
+}
+
+/* #mouth1{
+  position: absolute;
+  left:850px;
+  top:510px;
+  width:250px;
+  height:150px;
+
+} */
+
+/* #mouth1{
+  position: absolute;
+  left:1200px;
+  top:180px;
+  width:70px;
+  height:70px;
+
+} */
+
+#mouth2{
+  position: absolute;
+  left:1000px;
+  top:280px;
+  width:70px;
+  height:70px;
+}
+
+#mouth3{
+  position: absolute;
+  left:1000px;
+  top:380px;
+  width:70px;
+  height:70px;
+}
+
+#nose4{
+  position: absolute;
+  left:800px;
+  top:580px;
+  width:70px;
+  height:70px;
+}
+
+#nose5{
+  position: absolute;
+  left:900px;
+  top:580px;
+  width:70px;
+  height:70px;
+}
+
+#nose6{
+  position: absolute;
+  left:1000px;
+  top:480px;
+  width:70px;
+  height:70px;
+}
+
+/* #nose7{
+  position: absolute;
+  left:1100px;
+  top:480px;
+  width:70px;
+  height:70px;
+} */
+
+#nose8{
+  position: absolute;
+  left:1200px;
+  top:480px;
+  width:70px;
+  height:70px;
+}
+
+#cheek1{
+  position: absolute;
+  left:1000px;
+  top:580px;
+  width:70px;
+  height:70px;
+}
+
+#cheek2{
+  position: absolute;
+  left:1100px;
+  top:580px;
+  width:70px;
+  height:70px;
+}
+
+
+
+#resetButton{
+  width:70px;
+  height:50px;
+  margin-left:100px;
+}
+
+
+
+.button{
+  text-decoration:none;
+  border:none;
+  color: red;
+  outline-color: grey;
+  outline-width: thin;
+  font-family: "helvetica";
+}
+
+
+#link{
+  width:100px;
+  height:50px;
+  margin-left:150px;
+}
+/* #link button{
+
+  border: none;
+  color: red;
+  outline-color: grey;
+  outline-width: thin;
+} */
+
+/*NOT REALLY USED*/
+
+/* #eyeball3{
+  position: absolute;
+  left:850px;
+  top:320px;
+  width:300px;
+  height:200px;
+}
+
+#eyeball4{
+  position: absolute;
+  left:1050px;
+  top:320px;
+  width:300px;
+  height:200px;
+}
+
+#eyeDiv {
+  width:100px;
+  height:100px;
+} */
